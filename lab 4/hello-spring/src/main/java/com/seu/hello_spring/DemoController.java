@@ -20,9 +20,11 @@ public class DemoController {
         String username = request.getParameter("username");
         String password = request.getParameter("password");
 
-        User user = new User(username, password);
+        User user = new User(username, password, null);
+//        user.setUsername(username);
+//        user.setPassword(password);
 
-        System.out.println("username --> " + username);
+        Course c1 = new Course("CSE351", "AJ", 3);
 
         request.setAttribute("user", user);
         request.setAttribute("login", true);

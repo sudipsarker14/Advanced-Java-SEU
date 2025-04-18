@@ -1,6 +1,10 @@
 package com.seu.hello_spring;
 
-import lombok.*;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+import java.util.List;
 
 @Data
 @NoArgsConstructor
@@ -8,5 +12,5 @@ import lombok.*;
 public class User {
     private String username;
     private String password;
-//    private List<Course> courseList;
+    private List<Course> courseList;
 }

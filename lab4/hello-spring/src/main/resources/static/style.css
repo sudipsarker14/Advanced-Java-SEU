@@ -1,0 +1,18 @@
+h1{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.main-heading{
+    background-color: cornflowerblue;
+}
+
+#main-heading-id{
+    background-color: red;
+}
+
+#logo{
+    max-width: 100px;
+    max-height: 100px;
+}

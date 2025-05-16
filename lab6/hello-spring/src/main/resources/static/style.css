@@ -1,0 +1,14 @@
+h1, h2, h3 {
+    background-color: #2be246;
+    color: white;
+    text-align: center;
+}
+
+.main-heading {
+    background-color: black;
+    font-size: 40px;
+}
+
+#main-heading-id {
+    background-color: cornflowerblue;
+}
